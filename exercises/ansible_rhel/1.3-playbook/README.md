@@ -138,6 +138,7 @@ Use SSH to make sure Apache has been installed on `node1`. The necessary IP addr
 
 ```bash
 [student<X>@ansible ansible-files]$ grep node1 ~/lab_inventory/hosts
+[student<X>@ansible ansible-files]$ grep node1 ~/lightbulb/lessons/lab_inventory/student<X>-instances.txt 
 node1 ansible_host=11.22.33.44
 [student<X>@ansible ansible-files]$ ssh 11.22.33.44
 student<X>@11.22.33.44's password:
